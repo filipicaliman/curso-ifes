@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,28 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        header {
+            margin: 0;
+        }
+
+        nav {
+            padding: 20px;
+        }
+
+        nav a {
+            padding-right: 10px;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="120">
             <defs>
                 <linearGradient id="degrade" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="blue" stop-opacity=".5" />
-                    <stop offset="100%" stop-color="blue" stop-opacity="1" />
+                    <stop offset="0%" stop-color="green" stop-opacity=".5" />
+                    <stop offset="100%" stop-color="green" stop-opacity="1" />
                 </linearGradient>
             </defs>
             <rect width="100%" height="120" fill="url(#degrade)" />
@@ -30,12 +44,12 @@
                 </text>
             </g>
         </svg>
-    
+
         <nav>
-            <a href="index.html">Principal</a>
-            <a href="quemsou.html">Quem sou</a> 
-            <a href="projetos.html">Projetos</a> 
-            <a href="contatos.html"><i>Contato</i></a>
+            <a href="index.html">Principal</a> <span>::</span>
+            <a href="quemsou.html">Quem sou</a> <span>::</span>
+            <a href="projetos.html">Projetos</a> <span>::</span>
+            <a href="contatos.html"><i>Contato</i></a> <span>::</span>
         </nav>
     </header>
     <hr>
@@ -48,9 +62,9 @@
             <li><a href="https://www.linkedin.com/in/filipi-gomes-caliman-11240b246/" target="_blank">Linkedin</a></li>
         </ul>
     </main>
-
+    <hr>
     <footer>
         <p>Copyright &#169; 2022</p>
         <img src="img/imagens_atividade_semana1/ifes.png" alt="ifes" height="100px">
     </footer>
-</body>    
+</body>
