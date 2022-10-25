@@ -1,39 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade semana 2</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-
-        thead {
-            width: 100%;
-        }
-
-        td {
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    <table>
-        <thead>
-            <tr>
-                <td rowspan="3">a1</td>
-                <td rowspan="2">12</td>
-            </tr>
-            <tr>
-                <td>b1</td>
-            </tr>
-        </thead>
-
-        <tbody></tbody>
-
-        <tfoot></tfoot>
+    <table class="cabecalho">
+        <tr>
+            <td class="foto" rowspan="2"><img src="img/perfil.png" alt="perfil" class="perfil"></td>
+            <td class="nome" rowspan="1">Filipi Gomes Caliman</td>
+        </tr>
+        <tr>
+            <td class="dev">&lt;Designer e Desenvolvedor Web&gt;</td>
+        </tr>
     </table>
+
+    <table class="corpo">
+        <tr>
+            <td><a href="index.html" class="link" id="principal">Principal</a></td>
+            <td><a href="quemsou.html" class="link">Quem sou</a></td>
+            <td><a href="projetos.html" class="link">Projetos</a></td>
+            <td><a href="contato.html" class="link">Contatos</a></td>
+
+        </tr>
+
+        <tr class="contFoto">
+            <td colspan="2" class="cont">
+                <p>Olá! Eu sou</p><br>
+                <h1>Filipi Gomes Caliman</h1>
+                <h2 id="contFoto-txt1">Eu crio aplicações web</h2>
+                <h2 id="contFoto-txt2">Modernas e atraentes</h2>
+                <a href="contato.html"><input type="button" value="Contate-me" class="contFoto-botao"></a>
+            </td>
+            <td colspan="2" class="foto"><img src="img/312207350_677962033512596_1086978714542849262_n.jpg"
+                    alt="foto filipi" class="fotoCont"></td>
+        </tr>
+
+        <tr>
+            <td colspan="4" class="titulo">O que você vai encontrar aqui:</td>
+        </tr>
+
+        <tr>
+            <td class="cont2"><a href="index.html">
+                    <p>Principal</p>
+                </a></td>
+            <td class="cont2-texto" colspan="3">Está página em que você se encontra, contendo um resumo de todo o site.
+            </td>
+        </tr>
+
+        <tr>
+            <td class="cont2"><a href="quemsou.html">
+                    <p>Quem sou</p>
+                </a></td>
+            <td class="cont2-texto" colspan="3">Uma minibio de minha vida profissional com um resumo de minhas
+                habilidades.</td>
+        </tr>
+
+        <tr>
+            <td class="cont2"> <a href="projetos.html">
+                    <p>Projetos</p>
+                </a></td>
+            <td class="cont2-texto" colspan="3">Os trabalhos mais relevantes em que atuei como designer
+                e/ou desenvolvedor web</td>
+        </tr>
+
+        <tr>
+            <td class="cont2"> <a href="contato.html">
+                    <p>Contato</p>
+                </a></td>
+            <td class="cont2-texto" colspan="3">Os canais para você me encontrar em redes sociais,
+                e-mail e telefone.</td>
+        </tr>
+    </table>
+
+    <footer>
+        <table class="rodape">
+            <p class="rodape-txt">Copyrigth © 2022</p>
+            <a href="https://www.ifes.edu.br/" target="_blank"><img src="img/ifes.png" alt="ifes.png"
+                    class="rodape-ifes" t></a>
+        </table>
+    </footer>
 </body>
+
 </html>
