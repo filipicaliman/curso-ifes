@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1:after {
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) skew(-50deg);
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+form > div {
+    margin: 1em 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input + label { /*todo label que estiver depois do input*/
+    display: inline;
+    margin: 0;
+}
+
+fieldset > input[type=radio]:not(:first-of-type) { /*não realizar com o primeiro elemento*/
+    margin-left: 30px;
+}
+
+fieldset {
+    display: inline-block;
+    border-radius: 2px;
+    border: solid 1px gray;
+}
+
+input {
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    background-color: #e5ea15;
+    outline: 1px solid gray;
+}
+
+input:required {
+    background-color: #00c4ff;
+}
+
+input[type=submit] {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    padding: 10px;
+    color: white;
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-position: right center;
+    transition: 0.5s;
+}
+
+.buttom {
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+p + h2 {
+    background-color: red;
+}
+
+.parag::first-letter {
+    font-size: 3em;
+}
+
+a[href^="http"] {
+    color: red;
+    text-decoration: none;
+}
+
+a[href$=".xlsx"] {
+    color: blue;
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    background-color: yellow;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input[type="number"]:out-of-range {
+    background-color: red;
+}
+
+input + label {
+    font-size: 3em;
+    color: brown;
+}
+
+td {
+    padding: 5px;
+    border: solid 1px black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: gray;
+}

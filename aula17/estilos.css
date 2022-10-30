@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.i1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+}
+
+.i2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+}
+
+p {
+    background-color: brown;
+    overflow: hidden;
+}
