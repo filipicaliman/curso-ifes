@@ -34,7 +34,7 @@ a {
 }
 
 .areaesquerda {
-    width: 18vw;
+    width: 20vw;
     background-color: white;
     position: fixed;
     height: 100vh;
@@ -43,7 +43,8 @@ a {
 }
 
 .areaesquerda .logo img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 
@@ -70,7 +71,7 @@ a {
 }
 
 .areadireita {
-    width: 62vw;
+    width: 60vw;
     position: relative;
     left: 18vw;
     background-color: #eee;
@@ -271,7 +272,7 @@ div.rodape {
         width: 80vw;
         /* 4. Altura automática */
         /* FAZER AQUI*/
-        height: 100%;
+        height: auto;
     }
 
     .areaesquerda .brand {
@@ -297,19 +298,19 @@ div.rodape {
         width: 2.5vw;
         /* 10. Margem direita de 0.6% da largura área de visualização */
         /* FAZER AQUI*/
-        margin-right: 0.6vh;
+        margin-right: 0.6vw;
     }
 
     .areaesquerda .menu a {
         /* 11. Tamanho de fonte de 2.5% da largura área de visualização */
         /* FAZER AQUI*/
-        font-size: 2.5%;
+        font-size: 2.5vw;
     }
 
     .areaesquerda h2 {
         /* 12. Alinhamento vertical superior */
         /* FAZER AQUI*/
-            vertical-align: bottom;
+            vertical-align: top;
         /* 13. Margens zeradas (forçar) */
         /* FAZER AQUI*/
         margin: 0px !important;
@@ -319,6 +320,11 @@ div.rodape {
     .areaesquerda .logo {
         width: 20vw;
         border-radius: 10px;
+    }
+
+    .areaesquerda .logo img {
+        width: 100%;
+        height: 100%;
     }
 
     .cabecalho {
@@ -334,26 +340,32 @@ div.rodape {
     }
 
     .areadireita {
-        width: 80vw;
+        width: 80vw !important;
         padding: 0;
         /* 16. Posicionamento estático */
         /* FAZER AQUI*/
         position: static;
         /* 17. Margem interna superior de 0.5rem */
         /* FAZER AQUI*/
-        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        margin: solid 5px red;
+    }
+
+    .sobre {
+        width: 80vw;
     }
 
     .sobre .hero {
         /* 18. Grid de duas colunas iguais */
         /* FAZER AQUI*/
+        grid-template-columns: repeat(2, ifr);
     }
 
     .sobre .hero img {
         width: 100%;
         /* 19. Altura automática (forçar) */
         /* FAZER AQUI*/
-        height: 100% !important;
+        height: auto !important;
     }
 
     .sobre .hero .texto h2 {
@@ -363,7 +375,7 @@ div.rodape {
     .card {
         /* 20. Largura de 50% do elemento pai, menos 0.75rem (use função calc() ) */
         /* FAZER AQUI*/
-        width: 50%;
+        width: calc(50% - 0.75rem);
     }
 
     .contato input,
@@ -377,5 +389,9 @@ div.rodape {
 
     .rodape {
         font-size: 2vw;
+    }
+
+    .precos {
+        widows: 100%;
     }
 }
