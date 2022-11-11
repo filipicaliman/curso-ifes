@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+/*font-family: 'Caveat', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+body {
+
+    background-color: rgb(156, 164, 201);
+}
+
+/*cabeçalho*/
+.cabecalho {
+    width: 100%;
+    padding: 50px calc(10% + 2vw);
+    background-image: linear-gradient(to top, rgb(1, 0, 17), rgb(0, 4, 255));
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nome {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.dev {
+    text-align: left;
+    padding-left: 10px;
+}
+
+td.foto {
+    text-align: right;
+    height: 10vh;
+    width: 10vw;
+}
+
+.perfil {
+    height: 85px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+td.nome {
+    height: 80px;
+}
+
+.corpo {
+    margin: 0 10% 0 10%;
+    width: 80%;
+}
+
+.link {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
+
+.corpo a:hover {
+    background-color: rgba(12, 10, 10, 0.685);
+    color: white;
+}
+
+#principal {
+    color: white;
+    background-color: rgba(12, 10, 10, 0.685);
+    border-radius: 10px;
+    width: 250px;
+    height: 65px;
+}
+
+/*corpo*/
+.cont {
+    width: 50%;
+    height: 300px;
+    background-color: rgb(1, 0, 17);
+    border-radius: 18px;
+    box-shadow: 0 0 5px black;
+}
+
+.cont p {
+    font-family: caveat;
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+    color: white;
+    text-shadow: 0 0 5px green;
+}
+
+.cont h1 {
+    font-family: open sans;
+    font-size: 43px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    color: #b5ffe1ff;
+    text-shadow: 0 0 5px black;
+}
+
+.cont h2 {
+    font-family: caveat;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    color: white;
+    text-shadow: 0 0 5px blue;
+}
+
+.contFoto-botao {
+    background-color: rgb(126, 203, 248);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 15px 30px;
+    position: relative;
+    border-radius: 10px;
+    font-family: open sans;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.foto {
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.fotoCont {
+    width: 100%;
+    height: 475px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.titulo {
+    height: 100px;
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 26px;
+    color: white;
+    text-align: left;
+}
+
+.cont2 {
+    width: 20%;
+    height: 50px;
+    font-family: open sans;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.cont2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.cont2-texto {
+    width: 100vw;
+    font-family: open sans;
+    font-size: 20px;
+    color: black;
+}
+
+footer {
+    background-color: white;
+}
+
+.rodape {
+    text-align: center;
+    background-color: white;
+    height: 200px;
+}
+
+.rodape-ifes {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 110px
+}
+
+.rodape-txt {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Quem sou*/
+.minibio {
+    text-align: left;
+    width: 100%;
+    height: 190px;
+}
+
+#minibio-titulo {
+    position: relative;
+    bottom: 20px;
+    font-family: open sans;
+    font-size: 42px;
+    color: white;
+    text-shadow: 0 0 5px rgb(219, 1, 128);
+}
+
+.minibio-text {
+    position: relative;
+    font-size: 21px;
+    bottom: 20px;
+}
+
+.prog-tit {
+    text-align: left;
+    font-family: open sans;
+    width: 15%;
+    font-weight: bold;
+    color: black;
+    padding: 5px 5px 5px 0px;
+}
+
+.habilidade-idioma {
+    position: relative;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    text-align: start;
+    font-size: 28px;
+}
+
+.main-progresso {
+    font-size: 25px;
+}
+
+.exp-prof {
+    text-align: left;
+    margin: 0px 10% 0px 10%;
+
+    height: 400px;
+    font-family: open sans;
+    color: black;
+}
+
+.exp-prof-name {
+    text-align: left;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.exp-prof-tit {
+    font-weight: bold;
+    text-align: left;
+    height: 40px;
+    font-size: 26px;
+}
+
+.exp-data {
+    width: 180px;
+}
+
+/*proetos*/
+.main-projetos {
+    margin: 0 10%;
+    text-align: left;
+    position: relative;
+    font-family: open sans;
+    color: black;
+}
+
+.main-projetos h1 {
+    text-align: left;
+    font-size: 42px;
+}
+
+.main-projetos p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.projetos {
+    margin: 0 10%;
+}
+
+.projetos-foto {
+    width: 40%;
+    height: 200px;
+}
+
+.projetos-texto {
+    text-align: left;
+    position: relative;
+    font-family: open sans;
+    color: black;
+}
+
+.projetos-texto h2 {
+    font-size: 32px;
+}
+
+.projetos-texto p {
+    font-size: 16px;
+}
+
+.projeto-img {
+    width: 100%;
+}
+
+/*contatos*/
+.contato-titulo {
+    margin: 0 10%;
+    position: relative;
+    font-family: open sans;
+    color: black;
+    padding: 20px 0;
+}
+
+.contato-titulo h1 {
+    text-align: left;
+    font-size: 42px;
+}
+
+.contato-titulo p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.contato {
+    margin: 0 10%;
+    font-family: open sans;
+    color: white;
+}
+
+.contato p {
+    color: black;
+    text-align: left;
+}
+
+#assunto {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contato-nome {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#contato-email {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#contato-tel {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#txta-msg {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+
+}
+
+.submit {
+    padding: 8px 22px 8px 22px;
+    color: white;
+    background-color: rgba(18, 20, 177, 0.774);
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+.linha-hr {
+    margin: 0 10%;
+}
+
+.txt-final {
+    width: 80%;
+    margin: auto;
+    font-family: open sans;
+    color: black;
+}
+
+ol {
+    list-style-type: none;
+    position: relative;
+    padding-left: 0;
+}

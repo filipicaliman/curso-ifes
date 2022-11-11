@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <table class="cabecalho">
+        <tr>
+            <td class="foto" rowspan="2"><img src="img/perfil.png" alt="perfil" class="perfil"></td>
+            <td class="nome" rowspan="1">Filipi Gomes Caliman</td>
+        </tr>
+        <tr>
+            <td class="dev">&lt;Designer e Desenvolvedor Web&gt;</td>
+        </tr>
+    </table>
+
+    <table class="corpo">
+        <tr>
+            <td><a href="index.html" class="link">Principal</a></td>
+            <td><a href="quemsou.html" class="link">Quem sou</a></td>
+            <td><a href="projetos.html" class="link">Projetos</a></td>
+            <td><a href="contato.html" class="link" id="principal">Contatos</a></td>
+
+        </tr>
+    </table>
+
+    <table class="contato-titulo">
+        <tr>
+            <td>
+                <h1>Entre em contato!</h1>
+                <p>Preencha todos os campos do formulário e em até 48h lhe responderei!<br>
+                    Será um prazer lhe atender!</p>
+            </td>
+        </tr>
+    </table>
+    <table class="contato">
+        <form>
+            <tr>
+                <td>
+                    <p>
+                        <label for="assunto">Assunto</label><br>
+                        <select name="assunto" id="assunto" required>
+                            <option value="" selected disabled hidden>Selecione um Assunto...</option>
+                            <option value="P">Proposta</option>
+                            <option value="E">Entrevista</option>
+                            <option value="S">Solicitação</option>
+                            <option value="O">Orçamento</option>
+                        </select>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <label for="contato-nome">Nome</label><br>
+                        <input type="text" name="contato-nome" id="contato-nome" placeholder="Nome Completo" required>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <label for="contato-email">E-mail</label><br>
+                        <input type="text" name="contato-email" id="contato-email" placeholder="nome@email.com.br"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </p>
+                </td>
+            </tr>
+            <td>
+                <p>
+                    <label for="contato-tel">Telefone</label><br>
+                    <input type="tel" name="contato-tel" id="contato-tel" placeholder="(27) 99999-9999"
+                        pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" required>
+                </p>
+            </td>
+            <tr>
+                <td>
+                    <p>
+                        <label for="contato-mensagem">Mensagem</label><br><textarea name="contato-mensagem"
+                            id="contato-mensagem" cols="39" rows="10"></textarea>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar" class="submit">
+                </td>
+            </tr>
+        </form>
+    </table><br>
+    <hr class="linha-hr"><br>
+    <section class="txt-final">
+        <h2 id="txtfim">Outras formas de contato:</h2>
+        <ol>
+            <li>Residente em Castelo/ES</li>
+            <li><a href="#">fgcaliman.dev@gmail.com</a></li>
+            <li>(28) 999059520</li>
+            <li><a href="https://www.linkedin.com/in/filipi-gomes-caliman-11240b246/" target="_blank"
+                    id="linkedin">Linkedin</a></li>
+        </ol>
+    </section>
+
+    <footer>
+        <table class="rodape">
+            <p class="rodape-txt">Copyrigth © 2022</p>
+            <a href="https://www.ifes.edu.br/" target="_blank"><img src="img/ifes.png" alt="ifes.png"
+                    class="rodape-ifes" t></a>
+        </table>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    display: inline-block;
+    margin: 0 40% 0 40%;
+}
+
+img:hover {
+    opacity: 0.5;
+}

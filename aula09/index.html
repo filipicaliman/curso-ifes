@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Pet Shop</h1>
+    <hr>
+    <form action="/contato/cotar" method="post">
+        <p>
+            <label for="inome">Nome do dono:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+
+        <p>
+            <label for="ianimal">Tipo de animal:</label>
+            <select name="animal" id="ianimal">
+                <option value="Cachorro">Cachorro</option>
+                <option value="Coelho">Coelho</option>
+                <option value="Gato">Gato</option>
+                <option value="Pássaro">Pássaro</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="iservico">Tipo de serviço:</label>
+            <input type="text" name="servico" id="iservico">
+        </p>
+
+        <p>
+            <label for="iobs">Observações:</label><br>
+            <textarea name="obs" id="iobs" cols="30" rows="10" ></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <p>
+            <input type="date" name="data" id="data" min="1" max="27">
+        </p>
+    </form>
+</body>
+
+</html>

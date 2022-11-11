@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fotos img {
+    width: 150px;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.p1,
+.p2,
+.p3 {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.p1,
+.p2 {
+    border-right: solid 1px black;
+}
+
+.prg {
+    width: 80%;
+    border: 0 auto;
+}
